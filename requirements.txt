@@ -1,0 +1,16 @@
+# I had to install these first!
+# pip install numpy==1.18.5
+# Check installed host GDAL version with `gdalinfo --version`
+# pip install GDAL==2.2.3 --global-option=build_ext --global-option="-I/usr/include/gdal/"
+-e git+https://github.com/PyPSA/geokit.git@4c6c98fc8fbae11f44fea46bcdf6299cbf65e0e1#egg=geokit
+-e git+https://github.com/PyPSA/glaes.git@cebac2f999992633dd67dd05334be9e8f7e61295#egg=glaes
+atlite==0.0.3
+Cartopy==0.18.0
+netCDF4==1.5.3
+powerplantmatching==0.4.5
+pypsa==0.17.0
+scikit-learn==0.23.1
+snakemake==5.19.2
+toolz==0.10.0
+vresutils==0.3.1
+
